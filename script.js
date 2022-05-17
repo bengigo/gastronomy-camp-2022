@@ -85,18 +85,9 @@ Array.from(speakers.children).forEach((child, index) => {
     `;
 });
 
-{
-  /* <div class="speaker">
-      <div class="photo-container">
-        <img class="photo">
-      </div>
-      <div class="speaker-info">
-        <p class="name"></p>
-        <p class="title"></p>
-        <hr>
-        <p class="speaker-about"></p>
-      </div>
-    </div> */
-}
+// functioning more button and making hidden speakers visible
+
+// const more = document.querySelector(.more);
+
 
 console.log('Ok, you can sleep now');
