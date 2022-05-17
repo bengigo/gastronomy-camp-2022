@@ -186,13 +186,6 @@ h1 {
   margin-bottom: 40px;
 }
 
-
-
-
-
-
-
-/* stuff about speakers */
 .speakers {
   display: flex;
   flex-direction: column;
@@ -212,8 +205,6 @@ h1 {
 .photo-container {
   width: 200px;
   height: 200px;
-
-  /* background-color: aquamarine; */
   background-image: url(images/chess-bg.png);
   background-size: 65px;
   background-repeat: no-repeat;
@@ -242,6 +233,32 @@ h1 {
 
 
 /* to about page */
+.about-main {
+  background-image: url(images/about-bg.png);
+  padding: 60px 30px;
+  background-size: 90%;
+}
+
+.about-intro {
+  padding: 60px 30px;
+}
+
+.call {
+  text-align: center;
+}
+
+.about-h1 {
+  text-align: center;
+}
+
+.about-ge {
+  border: 4px solid white;
+  background-color: #f7f7f8;
+  padding: 25px 20px;
+}
+
+
+
 .june {
   background-image: url(images/asian-cuisine.png);
   width: 560px;
