@@ -139,21 +139,21 @@ h1 {
   font-size: 20px;
 }
 
-.june {
-  background-image: url(images/asian-cuisine.png);
-  width: 560px;
-  height: 300px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: hard-light;
-  background-color: var(--redish);
+.program {
+  padding: 30px;
 }
+
+
+
+
+
 
 
 /* stuff about speakers */
 .speakers {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .speaker-btn {
@@ -195,4 +195,16 @@ h1 {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+}
+
+
+/* to about page */
+.june {
+  background-image: url(images/asian-cuisine.png);
+  width: 560px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  background-color: var(--redish);
 }
