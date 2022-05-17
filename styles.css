@@ -19,18 +19,30 @@ main {
     background-image: url(images/mobile_intro_bg.png);
 }
 
-nav {
-    padding-top: 15px;
-    padding-left: 30px;
-}
-
 .burger {
     width: 25px;
     height: 35px;
     background: none;
     border: none;
     cursor: pointer;
-    z-index: 100;
+    /* z-index: 100; */
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+
+.burger.active .bar:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+    background-color: var(--redish);
+}
+
+.burger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.burger.active .bar:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+    background-color: var(--redish);
 }
 
 .bar {
@@ -41,10 +53,49 @@ nav {
     margin: 6px auto;
 }
 
+.burger-nav.active {
+    background-color: var(--light);
+}
+
 .mobile-nav {
     display: none;
+}
+
+.mobile-nav.active {
+    display: block;
     background-color: var(--light);
+    width: 100vw;
+    height: 100vh;
+    /* position: fixed;
+
+    left: 0;
+    transition: 0.3s;
+    position: fixed;
+    top: 0;
+    right: 100%;
+    z-index: 90; */
+}
+
+.mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+}
+
+.mobile-links {
+    list-style-type: none;
+}
+
+.mobile-link-titles {
     color: var(--redish);
+    font-size: 20px;
+}
+
+#company-link {
+    border: 3px solid;
+    padding: 3px;
 }
 
 .home-intro {
