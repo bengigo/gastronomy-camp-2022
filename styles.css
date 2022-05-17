@@ -1,13 +1,12 @@
-/* .june {
-    background-image: url(images/asian-cuisine.png);
-    width: 45%;
-    height: 55%;
-} */
-
-/* .event-cover {
-    width: 45%;
-
-} */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Lato", serif;
+  margin: 0;
+  padding: 0;
+}
 
 .june {
     background-image: url(images/asian-cuisine.png);
