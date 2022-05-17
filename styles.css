@@ -1,168 +1,165 @@
 :root {
-    --redish: #ec5242;
-    --dark: #272a31;
-    --light: #d3d3d3;
+  --redish: #ec5242;
+  --dark: #272a31;
+  --light: #d3d3d3;
 }
 
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    font-family: "Lato", serif;
-    color: var(--dark);
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: "Lato", serif;
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
 }
 
 .red-hr {
-    width: 50px;
-    border-color: var(--redish);
-    margin: 15px auto;
+  width: 50px;
+  border-color: var(--redish);
+  margin: 15px auto;
 }
 
 hr {
-    width: 25px;
-    margin: 15px 0;
+  width: 25px;
+  margin: 15px 0;
 }
 
 main {
-    background-image: url(images/mobile_intro_bg.png);
+  background-image: url(images/mobile_intro_bg.png);
 }
 
 .burger {
-    width: 25px;
-    height: 35px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-top: 15px;
-    margin-left: 30px;
+  width: 25px;
+  height: 35px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 30px;
 }
 
 body.fixed {
-    overflow: hidden;
-}
-
-.burger.active .bar:nth-child(1) {
-    transform: translateY(11px) rotate(45deg);
-    background-color: var(--redish);
-}
-
-.burger.active .bar:nth-child(2) {
-    opacity: 0;
-}
-
-.burger.active .bar:nth-child(3) {
-    transform: translateY(-11px) rotate(-45deg);
-    background-color: var(--redish);
+  overflow: hidden;
 }
 
 .bar {
-    width: 30px;
-    height: 5px;
-    background-color: var(--dark);
-    display: block;
-    margin: 6px auto;
+  width: 30px;
+  height: 5px;
+  background-color: var(--dark);
+  display: block;
+  margin: 6px auto;
 }
 
+.burger.active .bar:nth-child(1) {
+  transform: translateY(11px) rotate(45deg);
+  background-color: var(--redish);
+}
+
+.burger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active .bar:nth-child(3) {
+  transform: translateY(-11px) rotate(-45deg);
+  background-color: var(--redish);
+}
+
+
 .burger-nav.active {
-    background-color: var(--light);
+  background-color: var(--light);
 }
 
 .mobile-nav {
-    display: none;
+  display: none;
 }
 
 .mobile-nav.active {
-    display: block;
-    background-color: var(--light);
-    width: 100vw;
-    height: 100vh;
+  display: block;
+  background-color: var(--light);
+  width: 100vw;
+  height: 100vh;
 }
 
 .mobile-nav-list {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 70%;
 }
 
 .mobile-links {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .mobile-link-titles {
-    color: var(--redish);
-    font-size: 20px;
-    text-decoration: none;
+  color: var(--redish);
+  font-size: 20px;
+  text-decoration: none;
 }
 
 #company-link {
-    border: 3px solid;
-    padding: 3px;
+  border: 3px solid;
+  padding: 3px;
 }
 
 .home-intro {
-    padding: 60px 30px;
-
+  padding: 60px 30px;
 }
 
 h2 {
-    color: var(--redish);
-    font-weight: 300;
-    font-size: 30px;
+  color: var(--redish);
+  font-weight: 300;
+  font-size: 30px;
 }
 
 h1 {
-    margin-top: 5px;
-    color: var(--redish);
-    font-size: 45px;
-    margin-bottom: 35px;
-    line-height: 1.3;
+  margin-top: 5px;
+  color: var(--redish);
+  font-size: 45px;
+  margin-bottom: 35px;
+  line-height: 1.3;
 }
 
 .intro {
-    border: 4px solid white;
-    background-color: #f7f7f8;
-    padding: 25px 20px;
+  border: 4px solid white;
+  background-color: #f7f7f8;
+  padding: 25px 20px;
 }
 
 .date {
-    margin-top: 27px;
-    font-size: 35px;
-    line-height: 1.3;
-    margin-bottom: 10px;
+  margin-top: 27px;
+  font-size: 35px;
+  line-height: 1.3;
+  margin-bottom: 10px;
 }
 
 .location {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-
-
-
 .june {
-    background-image: url(images/asian-cuisine.png);
-    width: 560px;
-    height: 300px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: hard-light;
-    background-color: var(--redish);
+  background-image: url(images/asian-cuisine.png);
+  width: 560px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: hard-light;
+  background-color: var(--redish);
 }
 
 
 /* stuff about speakers */
 .speakers {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .speaker-btn {
-    margin: 0 15px 20px 15px;
-    height: 40px;
+  margin: 0 15px 20px 15px;
+  height: 40px;
 }
 
 /* .speaker-buttons {
@@ -171,33 +168,33 @@ h1 {
 } */
 
 .photo-container {
-    width: 200px;
-    height: 200px;
-    /* background-color: aquamarine; */
-    background-image: url(images/chess-bg.png);
-    background-size: 65px;
-    background-repeat: no-repeat;
-    background-position: left top;
-  }
-  
+  width: 200px;
+  height: 200px;
+
+  /* background-color: aquamarine; */
+  background-image: url(images/chess-bg.png);
+  background-size: 65px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
 
 .photo {
-    padding-top: 20px;
-    padding-left: 20px;
-    width: 165px;
-    height: 165px;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 165px;
+  height: 165px;
 }
 
 .speaker {
-    display: flex;
-    padding: 15px;
-    align-items: center;
-    column-gap: 20px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  column-gap: 20px;
 }
 
 .speaker-info {
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }
-
