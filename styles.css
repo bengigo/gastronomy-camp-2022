@@ -236,7 +236,7 @@ h1 {
 .about-main {
   background-image: url(images/about-bg.png);
   padding: 60px 30px;
-  background-size: 90%;
+  background-size: ;
 }
 
 .about-intro {
@@ -256,6 +256,20 @@ h1 {
   background-color: #f7f7f8;
   padding: 25px 20px;
 }
+
+.location-intro {
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h4 {
+  text-align: center;
+}
+
+
 
 
 
