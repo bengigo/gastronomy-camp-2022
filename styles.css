@@ -25,10 +25,12 @@ main {
     background: none;
     border: none;
     cursor: pointer;
-    /* z-index: 100; */
     margin-top: 15px;
     margin-left: 30px;
+}
 
+body.fixed {
+    overflow: hidden;
 }
 
 .burger.active .bar:nth-child(1) {
@@ -66,14 +68,6 @@ main {
     background-color: var(--light);
     width: 100vw;
     height: 100vh;
-    /* position: fixed;
-
-    left: 0;
-    transition: 0.3s;
-    position: fixed;
-    top: 0;
-    right: 100%;
-    z-index: 90; */
 }
 
 .mobile-nav-list {
@@ -91,6 +85,7 @@ main {
 .mobile-link-titles {
     color: var(--redish);
     font-size: 20px;
+    text-decoration: none;
 }
 
 #company-link {
