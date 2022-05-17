@@ -141,3 +141,10 @@ h1 {
     background-blend-mode: hard-light;
     background-color: var(--redish);
 }
+
+
+/* stuff about speakers */
+.photo {
+    width: 150px;
+    height: 150px;
+}
