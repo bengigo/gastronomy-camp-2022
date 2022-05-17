@@ -1,6 +1,6 @@
 console.log('Hello Bengi, please don\'t sleep yet');
 
-//functioning burger menu and mobile navigation
+// functioning burger menu and mobile navigation
 const burger = document.querySelector('.burger');
 const mobileMenu = document.querySelector('.mobile-nav');
 const mobileLinks = document.querySelectorAll('.mobile-links');
@@ -8,29 +8,29 @@ const body = document.querySelector('body');
 const burgerField = document.querySelector('.burger-nav');
 
 burger.addEventListener('click', () => {
-    burger.classList.toggle('active');
-    mobileMenu.classList.toggle('active');
-    body.classList.toggle('fixed');
-    burgerField.classList.toggle('active');
+  burger.classList.toggle('active');
+  mobileMenu.classList.toggle('active');
+  body.classList.toggle('fixed');
+  burgerField.classList.toggle('active');
 });
 
 mobileLinks.forEach((link) => link.addEventListener('click', () => {
-    burger.classList.toggle('active');
-    mobileMenu.classList.toggle('active');
-    body.classList.toggle('fixed');
-    burgerField.classList.toggle('active');
+  burger.classList.toggle('active');
+  mobileMenu.classList.toggle('active');
+  body.classList.toggle('fixed');
+  burgerField.classList.toggle('active');
 }));
 
-//array to hold speakers data
+// array to hold speakers data
 const speakersData = [
-    //speaker1
+    // speaker1
     {
         speakerImg: 'images/speakers/bamidele-cousineau.jpeg',
         speakerName: 'Bamidele Cousinea',
         speakerTitle: 'Head chef of Of Gene Acıktım',
         speakerInfo: 'Bamidele started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20. They also have a cooking school for children.'
     },
-    //speaker2
+    // speaker2
     {
         speakerImg: 'images/speakers/danny-tilki.jpeg',
         speakerName: 'Danny Tilki',
@@ -86,17 +86,19 @@ Array.from(speakers.children).forEach((child, index) => {
 })
 
 
-{/* <div class="speaker">
-  <div class="photo-container">
-    <img class="photo">
-  </div>
-  <div class="speaker-info">
-    <p class="name"></p>
-    <p class="title"></p>
-    <hr>
-    <p class="speaker-about"></p>
-  </div>
-</div> */}
+{
+    /* <div class="speaker">
+      <div class="photo-container">
+        <img class="photo">
+      </div>
+      <div class="speaker-info">
+        <p class="name"></p>
+        <p class="title"></p>
+        <hr>
+        <p class="speaker-about"></p>
+      </div>
+    </div> */
+}
 
 
 
