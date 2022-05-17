@@ -15,6 +15,17 @@
     padding: 0;
 }
 
+.red-hr {
+    width: 50px;
+    border-color: var(--redish);
+    margin: 15px auto;
+}
+
+hr {
+    width: 25px;
+    margin: 15px 0;
+}
+
 main {
     background-image: url(images/mobile_intro_bg.png);
 }
@@ -147,4 +158,12 @@ h1 {
 .photo {
     width: 150px;
     height: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+.speaker {
+    display: flex;
 }
