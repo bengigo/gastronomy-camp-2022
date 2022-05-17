@@ -85,9 +85,5 @@ Array.from(speakers.children).forEach((child, index) => {
     `;
 });
 
-// functioning more button and making hidden speakers visible
-
-// const more = document.querySelector(.more);
-
 
 console.log('Ok, you can sleep now');
