@@ -12,23 +12,26 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="burger-nav">
             <button class="burger mobile">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </button>
+        </nav>
 
-            <ul class="mobile mobile-nav">
-                <li class="mobile-links"><a>HOME</a></li>
-                <li class="mobile-links"><a>ABOUT</a></li>
-                <li class="mobile-links"><a>PROGRAM</a></li>
-                <li class="mobile-links"><a>JOIN</a></li>
-                <li class="mobile-links"><a>SPONSERS</a></li>
-                <li class="mobile-links"><a>NEWS</a></li>
-                <li class="mobile-links"><a>GASTONOMY EVENTS</a></li>
+        <nav class="mobile mobile-nav">
+            <ul class="mobile-nav-list">
+                <li class="mobile-links"><a class="mobile-link-titles" href="home.html">HOME</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" href="about.html">ABOUT</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" href="#">PROGRAM</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" href="#">JOIN</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" href="#">SPONSERS</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" href="#">NEWS</a></li>
+                <li class="mobile-links"><a class="mobile-link-titles" id="company-link">GASTONOMY EVENTS</a></li>
             </ul>
         </nav>
+
     </header>
 
     <section class="about-intro">
@@ -80,7 +83,8 @@
         <img class="logo" src="images/gastronomy-events-logo.png" alt="logo">
         <p class="footer-text">Reservation is required to all <br> Gastronomy Events.</p>
     </footer>
-    
+    <script src="script.js"></script>
+
 </body>
 
 </html>
