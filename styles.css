@@ -155,15 +155,38 @@ h1 {
 
 
 /* stuff about speakers */
-.photo {
-    width: 150px;
-    height: 150px;
-}
+.photo-container {
+    width: 200px;
+    height: 200px;
+    /* background-color: aquamarine; */
+    background-image: url(images/chess-bg.png);
+    background-size: 65px;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  
 
-.hidden {
-    display: none;
+.photo {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 165px;
+    height: 165px;
 }
 
 .speaker {
     display: flex;
+    padding: 15px;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.speaker-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+
+.hidden {
+    display: none;
 }
