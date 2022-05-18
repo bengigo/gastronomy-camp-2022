@@ -108,7 +108,7 @@ body.fixed {
   padding: 60px 30px;
 }
 
-h2 {
+.call-home {
   color: var(--redish);
   font-weight: 300;
   font-size: 30px;
@@ -243,8 +243,11 @@ h1 {
   padding: 60px 30px;
 }
 
-.call {
+.call-about {
   text-align: center;
+  color: var(--redish);
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .about-h1 {
