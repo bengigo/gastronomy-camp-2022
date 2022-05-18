@@ -26,6 +26,12 @@ hr {
   margin: 15px 0;
 }
 
+
+/* mobile design */
+.desktop {
+  display: none;
+}
+
 main {
   background-image: url(images/mobile_intro_bg.png);
 }
@@ -66,7 +72,7 @@ body.fixed {
   background-color: var(--redish);
 }
 
-.burger-nav.active {
+nav.active {
   background-color: var(--light);
 }
 
@@ -232,7 +238,7 @@ h1 {
   row-gap: 8px;
 }
 
-/* to about page */
+/*about page */
 .about-main {
   background-image: url(images/about-bg.png);
   padding: 60px 30px;
@@ -395,4 +401,57 @@ footer {
 
 .footer-text {
   color: var(--dark);
+}
+
+/* desktop desing */
+@media only screen and (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .account-links {
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    background-color: var(--dark);
+    padding-top: 5px;
+    padding-right: 100px;
+    list-style-type: none;
+    column-gap: 20px;
+  }
+
+  
+
+  .social-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .account-link {
+    color: var(--light);
+    text-decoration: none;
+  }
+
+  .desktop-links {
+  }
+
+  .nav-logo-container {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .nav-logo {
+    width: 100px;
+
+  }
 }
