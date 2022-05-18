@@ -71,9 +71,9 @@ body.fixed {
   background-color: var(--light);
 }
 
-.mobile-nav {
+/* .mobile-nav {
   display: none;
-}
+} */
 
 .mobile-nav.active {
   display: block;
@@ -83,6 +83,10 @@ body.fixed {
 }
 
 .mobile-nav-list {
+  display: none
+}
+
+.mobile-nav-list.active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -396,4 +400,12 @@ footer {
 
 .footer-text {
   color: var(--dark);
+}
+
+
+/* mobile design */
+@media only screen and (min-width: 768px){
+  /* .mobile {
+    display: none;
+  } */
 }
