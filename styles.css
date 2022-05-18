@@ -409,6 +409,10 @@ footer {
 
 /* desktop design */
 @media only screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+
   .mobile {
     display: none;
   }
@@ -458,7 +462,7 @@ footer {
   }
 
   .home-intro {
-    padding-top: 150px;
+    padding-top: 250px;
     padding-bottom: 150px;
     padding-left: 100px;
     display: flex;
@@ -557,4 +561,19 @@ footer {
     width: 100%;
     position: fixed;
   }
+
+  /* about desktop */
+
+  .about-intro {
+    padding-top: 250px;
+  }
+
+  .about-ge {
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid var(--light);
+  }
+
+
+
 }
