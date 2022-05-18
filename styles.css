@@ -26,12 +26,6 @@ hr {
   margin: 15px 0;
 }
 
-
-/* mobile design */
-.desktop {
-  display: none;
-}
-
 main {
   background-image: url(images/mobile_intro_bg.png);
 }
@@ -72,7 +66,7 @@ body.fixed {
   background-color: var(--redish);
 }
 
-nav.active {
+.burger-nav.active {
   background-color: var(--light);
 }
 
@@ -238,11 +232,13 @@ h1 {
   row-gap: 8px;
 }
 
-/*about page */
+
+/* to about page */
 .about-main {
   background-image: url(images/about-bg.png);
   padding: 60px 30px;
-  height: auto;
+  height: auto
+  background-size: ;
 }
 
 .about-intro {
@@ -264,7 +260,6 @@ h1 {
   border: 4px solid white;
   background-color: #f7f7f8;
   padding: 25px 20px;
-  text-align: center;
 }
 
 .location-intro {
@@ -273,6 +268,12 @@ h1 {
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid var(--light);
+
+}
+
+.about-ge {
+  text-align: center;
+  border: 4px solid white;
 }
 
 .contact {
@@ -318,7 +319,7 @@ h1 {
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: darken;
+  background-blend-mode:darken;
   background-color: var(--redish);
   margin-top: 30px;
   display: flex;
@@ -332,7 +333,7 @@ h1 {
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: darken;
+  background-blend-mode:darken;
   background-color: var(--redish);
   margin-top: 30px;
   display: flex;
@@ -352,7 +353,7 @@ h1 {
   font-size: 25px;
 }
 
-.sponsor-container {
+.sponser-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -361,19 +362,20 @@ h1 {
   padding-bottom: 30px;
 }
 
-.sponsors-heading {
+.sponsers-heading {
   color: var(--light);
   font-size: 24px;
 }
 
-.sponsors {
+
+.sponsers {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.sponsor-logo {
+.sponser-logo {
   width: 100px;
   height: 70px;
   margin: 10px;
@@ -401,60 +403,4 @@ footer {
 
 .footer-text {
   color: var(--dark);
-}
-
-/* desktop desing */
-@media only screen and (min-width: 768px) {
-  .mobile {
-    display: none;
-  }
-
-  .desktop-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
-  }
-
-  .account-links {
-    width: 100%;
-    justify-content: flex-end;
-    display: flex;
-    align-items: center;
-    background-color: var(--dark);
-    padding-top: 5px;
-    padding-right: 100px;
-    list-style-type: none;
-    column-gap: 20px;
-  }
-
-  
-
-  .social-icon {
-    width: 18px;
-    height: 18px;
-  }
-
-  .account-link {
-    color: var(--light);
-    text-decoration: none;
-  }
-
-  /* .main-nav {
-    display: flex;
-    justify-content: center;
-  } */
-
-  
-  .nav-logo-container {
-    display: flex;
-    align-items: center;
-  }
-
-
-  .nav-logo {
-    width: 100px;
-
-  }
 }
