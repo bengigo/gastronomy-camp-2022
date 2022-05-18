@@ -574,6 +574,15 @@ footer {
     border: 1px solid var(--light);
   }
 
+  .turtle-logo {
+    width: 45%;
+  }
+
+  .events-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
 
 
 }
