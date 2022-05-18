@@ -69,7 +69,6 @@ const speakers = document.querySelector('.speakers-container');
 
 Array.from(speakers.children).forEach((child, index) => {
   child.innerHTML = `
-    <div class="speaker">
       <div class="photo-container">
         <img class="photo" src="${speakersData[index].speakerImg}">
       </div>
@@ -79,6 +78,5 @@ Array.from(speakers.children).forEach((child, index) => {
         <hr>
         <p class="speaker-about">${speakersData[index].speakerInfo}</p>
       </div>
-    </div>
     `;
 });

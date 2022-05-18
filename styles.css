@@ -479,7 +479,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
     margin-right: 5px;
     margin-left: 5px;
   }
@@ -487,6 +486,21 @@ footer {
   .program-info {
     text-align: center;
     margin-top: 4px;
+  }
+
+  .speakers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .speaker {
+    width: 40%;
+  }
+
+  .speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
 
