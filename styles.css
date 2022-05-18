@@ -455,7 +455,15 @@ footer {
     padding: 8px 15px;
   }
 
-
+  .home-intro {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+  }
 
 
 
