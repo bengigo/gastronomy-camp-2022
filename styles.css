@@ -353,7 +353,7 @@ h1 {
   font-size: 25px;
 }
 
-.sponser-container {
+.sponsor-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -362,20 +362,20 @@ h1 {
   padding-bottom: 30px;
 }
 
-.sponsers-heading {
+.sponsors-heading {
   color: var(--light);
   font-size: 24px;
 }
 
 
-.sponsers {
+.sponsors {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.sponser-logo {
+.sponsor-logo {
   width: 100px;
   height: 70px;
   margin: 10px;
