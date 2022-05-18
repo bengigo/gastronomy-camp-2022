@@ -190,6 +190,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 30px;
 }
 
 .speaker-btn {
@@ -236,6 +237,7 @@ h1 {
 .about-main {
   background-image: url(images/about-bg.png);
   padding: 60px 30px;
+  height: auto
   background-size: ;
 }
 
@@ -268,11 +270,24 @@ h1 {
 
 }
 
-h4 {
+.about-ge {
+  text-align: center;
+  border: 4px solid white;
+}
+
+.contact {
+  margin-top: 27px;
   text-align: center;
 }
 
+.mail {
+  text-align: center;
+}
 
+.camp-heading {
+  text-align: center;
+  font-size: 24px;
+}
 
 
 
