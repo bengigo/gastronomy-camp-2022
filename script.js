@@ -1,5 +1,3 @@
-console.log('Hello Bengi, please don\'t sleep yet');
-
 // functioning burger menu and mobile navigation
 const burger = document.querySelector('.burger');
 const mobileMenu = document.querySelector('.mobile-nav');
@@ -84,6 +82,3 @@ Array.from(speakers.children).forEach((child, index) => {
     </div>
     `;
 });
-
-
-console.log('Ok, you can sleep now');

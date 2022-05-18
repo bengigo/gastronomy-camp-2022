@@ -232,13 +232,11 @@ h1 {
   row-gap: 8px;
 }
 
-
 /* to about page */
 .about-main {
   background-image: url(images/about-bg.png);
   padding: 60px 30px;
-  height: auto
-  background-size: ;
+  height: auto;
 }
 
 .about-intro {
@@ -260,6 +258,7 @@ h1 {
   border: 4px solid white;
   background-color: #f7f7f8;
   padding: 25px 20px;
+  text-align: center;
 }
 
 .location-intro {
@@ -268,12 +267,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid var(--light);
-
-}
-
-.about-ge {
-  text-align: center;
-  border: 4px solid white;
 }
 
 .contact {
@@ -319,7 +312,7 @@ h1 {
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode:darken;
+  background-blend-mode: darken;
   background-color: var(--redish);
   margin-top: 30px;
   display: flex;
@@ -333,7 +326,7 @@ h1 {
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode:darken;
+  background-blend-mode: darken;
   background-color: var(--redish);
   margin-top: 30px;
   display: flex;
@@ -366,7 +359,6 @@ h1 {
   color: var(--light);
   font-size: 24px;
 }
-
 
 .sponsors {
   display: flex;
