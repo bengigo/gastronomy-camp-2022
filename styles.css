@@ -152,6 +152,11 @@ h1 {
   background-image: url(images/pattern_bg.png);
 }
 
+.slots {
+  display: flex;
+  flex-direction: column;
+}
+
 .program-heading {
   color: var(--light);
 }
@@ -464,6 +469,29 @@ footer {
     align-items: flex-start;
     width: 70%;
   }
+
+  .slots {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .slot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .program-info {
+    text-align: center;
+    margin-top: 4px;
+  }
+
+
+
+  
 
 
 
