@@ -503,9 +503,21 @@ footer {
     justify-content: center;
   }
 
+  .home-sponsers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .sponsers {
+    display: flex;
+    width: 100%;
+  }
 
 
-  
 
 
 
