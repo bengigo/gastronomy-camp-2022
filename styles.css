@@ -411,7 +411,7 @@ footer {
 
   .desktop-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
 
@@ -441,14 +441,17 @@ footer {
     text-decoration: none;
   }
 
-  .desktop-links {
-  }
+  /* .main-nav {
+    display: flex;
+    justify-content: center;
+  } */
 
+  
   .nav-logo-container {
     display: flex;
     align-items: center;
-  
   }
+
 
   .nav-logo {
     width: 100px;
