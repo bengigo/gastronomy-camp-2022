@@ -604,6 +604,7 @@ footer {
   }
   
   .logo-text {
+    margin-left: 10px;
     color: var(--light);
   }
   
