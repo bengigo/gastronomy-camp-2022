@@ -26,6 +26,7 @@ hr {
   margin: 15px 0;
 }
 
+/* mobile version */
 main {
   background-image: url(images/mobile_intro_bg.png);
 }
