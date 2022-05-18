@@ -584,5 +584,30 @@ footer {
     justify-content: space-evenly;
   }
 
+  footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px;
+    align-items: center;
+    background-color: var(--dark);
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 150px;
+  }
+  
+  .logo-text {
+    color: var(--light);
+  }
+  
+  .footer-text {
+    color: var(--light);
+  }
+
 
 }
