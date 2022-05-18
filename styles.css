@@ -517,6 +517,50 @@ footer {
     width: 100%;
   }
 
+  .desktop-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 25px;
+    align-items: center;
+  
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 100px;
+  }
+
+  .logo-text {
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  
+  .social-nav {
+    background-color: var(--dark);
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+
+  .social-links {
+    margin: 10px 10px;
+  }
+
+  .social-link-titles {
+    color: var(--light);
+    /* margin-top: 15px; */
+  }
+
+  header {
+    width: 100%;
+    position: fixed;
+  }
+  
 
 
 
