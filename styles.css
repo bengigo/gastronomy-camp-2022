@@ -23,6 +23,7 @@
 
 hr {
   width: 25px;
+
   /* margin: 15px 0; */
 }
 
@@ -535,10 +536,6 @@ footer {
     align-items: center;
   }
 
-  .logo-img {
-    width: 100px;
-  }
-
   .logo-text-desktop {
     margin-left: 10px;
     font-weight: 700;
@@ -597,24 +594,17 @@ footer {
     align-items: center;
     background-color: var(--dark);
   }
-  
-  .logo {
-    display: flex;
-    align-items: center;
-  }
-  
+
   .logo-img {
     width: 150px;
   }
-  
+
   .logo-text {
     margin-left: 10px;
     color: var(--light);
   }
-  
+
   .footer-text {
     color: var(--light);
   }
-
-
 }
