@@ -25,43 +25,43 @@ const speakersData = [
   {
     speakerImg: 'images/speakers/bamidele-cousineau.jpeg',
     speakerName: 'Bamidele Cousinea',
-    speakerTitle: 'Head chef of Of Gene Acıktım',
-    speakerInfo: 'Bamidele started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Head chef of Acıktım',
+    speakerInfo: 'Bamidele loves experimenting.',
   },
   // speaker2
   {
     speakerImg: 'images/speakers/danny-tilki.jpeg',
     speakerName: 'Danny Tilki',
-    speakerTitle: 'Head chef of Of Yiyin Gari',
-    speakerInfo: 'Danny started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Head chef of Yiyin Gari',
+    speakerInfo: 'Danny started learning as a child.',
   },
   // speaker3
   {
     speakerImg: 'images/speakers/duru-teke.jpeg',
     speakerName: 'Duru Teke',
-    speakerTitle: 'Head chef of Of Gene Acıktım',
-    speakerInfo: 'Duru started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Head chef of Of Mutfak',
+    speakerInfo: 'Duru teaches kids to cook.',
   },
   // speaker4
   {
     speakerImg: 'images/speakers/hla-forney.jpeg',
     speakerName: 'Hla Forney',
-    speakerTitle: 'Head chef of Of Gene Acıktım',
-    speakerInfo: 'Hla started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Sous chef of Ev',
+    speakerInfo: 'Hla recreates street food.',
   },
   // speaker5
   {
     speakerImg: 'images/speakers/jyothi-eerkens.jpeg',
     speakerName: 'Jhothi Eerkens',
-    speakerTitle: 'Head chef of Of Gene Acıktım',
-    speakerInfo: 'Jhothi started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Head chef of Bıçak',
+    speakerInfo: 'Jhothi is really into knives.',
   },
   // speaker6
   {
     speakerImg: 'images/speakers/paget-basso.jpeg',
     speakerName: 'Paget Basso',
-    speakerTitle: 'Head chef of Of Gene Acıktım',
-    speakerInfo: 'Paget started learning in their grandparents kitchen and became the head chef of Of Gene Acıktım at the age of 20.',
+    speakerTitle: 'Head chef of Oda',
+    speakerInfo: 'Paget is a soup wizard.',
   },
 ];
 
