@@ -1,56 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Gastronomy Retreat
 
-> Description the project.
+>  This project -the 1st Capstone project of Microverse- is created to give information about an event. The event is "Gastronomy Retreat" organized by a company called Gastronomy  Events. Both event and company are imaginary. 
+Gastronomy Events is a company created and run by cooks who aim to organize retreat-like events for cooks around the world to gather, explore some specific and different gastronomic topics every time, get acquainted with fellow cooks and have a mini holiday.
+This perticular event is focusing on; spices and their area of use, also types of tofu and traditional tofu recipes.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://bengigo.github.io/gastronomy-camp-2022/)
 
+## Presentation
+
+[Presentation Video](https://www.loom.com/share/06f48940cc8f48d4987dc1f34e66efd8)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+- Copy `git@github.com:bengigo/gastronomy-camp-2022.git`
+- Get the directory that you want to clone the repository.
+- Open the command prompt in this directory.
+- Type `git clone git@github.com:bengigo/gastronomy-camp-2022.git`
+- Go to the repository folder in your command prompt `cd gastronomy-camp-2022`
+- Run npm install to install the dev dependencies for linters and node sass.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Bengi Genç**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/bengigo)
+- Twitter: [@twitterhandle](https://twitter.com/bengi_gb)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bengi-g-03b883199/)
 
 ## 🤝 Contributing
 
@@ -64,9 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The original template was desinged by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 
