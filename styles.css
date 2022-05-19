@@ -171,6 +171,10 @@ h1 {
   background-color: rgba(255, 255, 255, 0.102);
 }
 
+.slot:hover {
+  border: 3px solid var(--light);
+}
+
 .topic {
   color: var(--redish);
 }
