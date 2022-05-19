@@ -319,8 +319,10 @@ h1 {
 
 .june {
   background-image: url(images/asian-cuisine.png);
-  width: 560px;
-  height: 300px;
+  /* width: 560px;
+  height: 300px; */
+  width: 90vw;
+  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
@@ -333,8 +335,10 @@ h1 {
 
 .july {
   background-image: url(images/cheese.png);
-  width: 560px;
-  height: 300px;
+  /* width: 560px;
+  height: 300px; */
+  width: 90vw;
+  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
@@ -592,6 +596,13 @@ footer {
     justify-content: space-evenly;
   }
 
+  .event-container {
+    /* width: 560px;
+    height: 300px; */
+    width: 40vw;
+    height: 50vh;
+  }
+
   footer {
     display: flex;
     justify-content: space-around;
@@ -612,4 +623,9 @@ footer {
   .footer-text {
     color: var(--light);
   }
+}
+
+
+body {
+  border: solid;
 }
