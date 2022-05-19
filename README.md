@@ -24,11 +24,11 @@ This perticular event is focusing on; spices and their area of use, also types o
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
-- Copy git@github.com:bengigo/gastronomy-camp-2022.git
+- Copy `git@github.com:bengigo/gastronomy-camp-2022.git`
 - Get the directory that you want to clone the repository.
 - Open the command prompt in this directory.
-- Type git clone git@github.com:bengigo/gastronomy-camp-2022.git
-- Go to the repository folder in your command prompt cd gastronomy-camp-2022
+- Type `git clone git@github.com:bengigo/gastronomy-camp-2022.git`
+- Go to the repository folder in your command prompt `cd gastronomy-camp-2022`
 - Run npm install to install the dev dependencies for linters and node sass.
 
 
@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- The original template was desinged by Cindy Shin.
+- The original template was desinged by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 ## 📝 License
 
