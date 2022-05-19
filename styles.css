@@ -401,7 +401,7 @@ footer {
 }
 
 .logo-img {
-  width: 150px;
+  width: 20vw;
 }
 
 .logo-text {
@@ -409,6 +409,7 @@ footer {
 }
 
 .footer-text {
+  width: 30vw;
   color: var(--dark);
 }
 
@@ -597,34 +598,21 @@ footer {
   }
 
   .event-container {
-    /* width: 560px;
-    height: 300px; */
     width: 40vw;
     height: 50vh;
   }
 
   footer {
     display: flex;
-    justify-content: space-around;
     padding: 30px 25px;
     align-items: center;
     background-color: var(--dark);
-  }
-
-  .logo-img {
-    width: 150px;
-  }
-
-  .logo-text {
-    margin-left: 10px;
-    color: var(--light);
   }
 
   .footer-text {
     color: var(--light);
   }
 }
-
 
 body {
   border: solid;
