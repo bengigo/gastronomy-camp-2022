@@ -4,7 +4,6 @@ const mobileNav = document.querySelector('.mobile-nav');
 const mobileMenu = document.querySelector('.mobile-nav-list');
 const mobileLinks = document.querySelectorAll('.mobile-links');
 const body = document.querySelector('body');
-// const burgerField = document.querySelector('.burger-nav');
 
 burger.addEventListener('click', () => {
   burger.classList.toggle('active');
