@@ -388,7 +388,8 @@ footer {
 }
 
 .logo-img {
-  width: 20vw;
+  width: 100px;
+  height: 80px
 }
 
 .logo-text {
