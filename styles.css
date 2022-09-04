@@ -388,7 +388,8 @@ footer {
 }
 
 .logo-img {
-  width: 20vw;
+  width: 100px;
+  height: 80px;
 }
 
 .logo-text {
@@ -526,6 +527,8 @@ footer {
   .logo {
     display: flex;
     align-items: center;
+    width: 100px;
+    height: 80px;
   }
 
   .logo-text-desktop {
